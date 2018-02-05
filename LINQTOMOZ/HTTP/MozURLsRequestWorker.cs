@@ -47,7 +47,7 @@ namespace LINQTOMOZ
 				return (qr) =>
 				{
 					URLMetrics urlRequester = (URLMetrics)_queryData[0];
-					int metricsCalsValue = (int)urlRequester.SourceCols;
+					long metricsCalsValue = (long)urlRequester.SourceCols;
 					String urlQuery = "url-metrics/?Cols=" + metricsCalsValue.ToString() + "&";
 					return urlQuery;
 
