@@ -1,4 +1,7 @@
 # LinqToMoz
+
+*Provisional fix made for the Domain Authority value not being populated correctly.*
+
 Linq provider to MOZ API
 
 The principle of library works based on [MOZ Documentation](https://moz.com/help/guides/moz-api/mozscape/overview)
